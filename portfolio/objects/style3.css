@@ -1,0 +1,284 @@
+
+@font-face {
+	font-family: 'Apercu-Bold';
+	src: url('fonts/Apercu Bold.eot');
+	src: local('☺'), url('fonts/Apercu Bold.woff') format('woff'), url('fonts/Apercu Bold.ttf') format('truetype'), url('fonts/Apercu Bold.svg') format('svg');
+}
+
+@font-face {
+    font-family: 'Apercu-Mono';
+    src: url('fonts/Apercu-Mono.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'InputMono-ExtraLight';
+	src: url('fonts/InputMono-ExtraLight.eot');
+	src: local('☺'), url('fonts/InputMono-ExtraLight.woff') format('woff'), url('fonts/InputMono-ExtraLight.ttf') format('truetype'), url('fonts/InputMono-ExtraLight.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*@font-face {
+    font-family: 'AkkuratLightPro-Regular';
+    src: url('fonts/AkkuratLightPro-Regular.otf') format('opentype');*/
+
+@font-face {
+	font-family: 'SpektroGothic-Regular';
+	src: url('fonts/SpektroGothic-Regular.otf') format('opentype');
+}
+
+
+#store{
+	display: none;
+}
+ 
+body{
+	font-family: 'InputMono-ExtraLight',  Serif;
+	font-size: 11px;
+	color: #000000;
+	text-align: center;
+	left: 0px;
+	overflow-x: hidden;
+	height: 100%;
+}
+
+img{
+	border: 0px;
+}
+
+a{
+	text-decoration: underline;
+	font-style: normal;
+	color: #5c5c5c;
+}
+
+.inLink{
+	color: #000000;
+}
+
+a:hover{
+	color: #000000;
+	background-color: #00ffba; 
+}
+
+a:active{
+	color: #000000;
+	background-color: #00ffba;
+}
+
+h2 {
+    background-size:cover;
+    padding:1em;
+    line-height:1;
+    display:inline-block;
+    font-family: 'Apercu-Bold', sans-serif; 
+    text-transform: uppercase;
+    border:.1em solid #000;
+}
+
+}
+
+#byline{
+	font-family: "Apercu-Bold";
+	font-size: 25px;	
+	position: absolute;
+	left: 850px;
+	top: 255px; 
+	background-color: white;
+}
+
+.left{
+	position: absolute;
+	z-index: 5;
+	left: -350px;
+	float: left;
+	margin-top: -100px;
+	padding-bottom: 12px;
+	width: 400px;
+}
+
+.right{
+	position: absolute;
+	z-index: 5;
+	right: -1900px;
+	float: right;
+	margin-top: -100px;
+	padding-bottom: 12px;
+	width: 900%;
+}
+
+.left img, .right img{
+	width: 900px;
+}
+
+.full img{
+	width: 900px;
+}
+
+#natureCycle{
+	margin-top: 0px;
+	left: -75px;
+}
+
+.caption{
+	font-size: 9px;
+	max-width: 900px;
+	width: 300px;
+}
+
+#footnote{
+	font-size: 9px;
+	text-align: left;
+	width: 300px;
+	float: left;
+}
+
+#supertitle1, #supertitle2{
+	top: 24px;
+	width: 33%;
+	position: absolute;
+	font-family: "Apercu-Bold";
+	font-size: 124px;
+	text-transform: uppercase;
+	letter-spacing: 0px;
+	line-height: 0.85em;
+	text-align: left; 
+	margin-top: 25px;
+	margin-left: 15px;
+	margin-right: 0px;
+    padding: 0em .15em 0em;
+    /*border: 1px solid black;
+    background-size:contain;
+    display:inline-block;*/
+}
+
+#smalltitle1, #smalltitle2{
+	top: 200px;
+	width: 90%;
+	position: absolute;
+	font-family: "Apercu-Bold";
+	letter-spacing: 0px;
+	line-height: 0.8em;
+	text-align: left; 
+	margin-bottom: 15px;
+	margin-right: 0px;
+	font-size: 35px;
+    padding: 0em 1.2em 0em;
+    /*border: 1px solid black;
+    background-size:contain;
+    display:inline-block;*/
+}
+
+#supertitle2, #smalltitle2{
+	color: blue;
+	z-index: -2;
+}
+
+#supertitle1, #smalltitle1{
+	color: black;
+	z-index: 2;
+	margin-left: 11px;
+	margin-top: 29px;
+}
+
+#main{
+	margin: 0 auto;
+	width: 400px;
+	text-align: center;
+	display: inline-block;
+	z-index: 5;
+}
+
+#text{
+	position: absolute;
+	top: 450px;
+	width: 400px;
+}
+
+#text img{
+	width: 300px;
+}
+
+.title, .subtitle{
+	font-family: "Apercu-Bold";
+	font-size: 50px;
+	color: #000000;
+	text-align: left;
+	overflow-y: visible;
+	text-transform: none;
+	line-height: .8em;
+	width: 100%;
+	letter-spacing: 0px;
+	margin-left: -12px;
+	margin-top: 50px;
+	margin-bottom: 25px;
+	text-align: left;
+
+}
+
+.section1{
+	padding-top: 100px;
+	margin-left: -100px;
+	z-index: 1;
+	font-family: "Satellite Bold";
+	font-size: 124px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	line-height: 0.8em;
+	text-align: left; 
+	margin-top: 25px;
+	margin-bottom: 15px;
+	margin-right: 0px;
+	border: 0px;
+	color: #00ffba;
+	z-index: -5;
+}
+
+
+p, ul{
+	text-align: left;
+}
+
+ul li{
+	list-style-type: none;
+	margin-left: 8px;
+	margin-bottom: 6px;
+}
+
+.quote{
+	margin-left: 30px;
+	margin-right: 30px;
+	font-style: italic;
+	text-align: left;
+}
+
+.quote i{
+	font-style: normal;
+}
+
+.slowdownquote{
+    font-family: Apercu-Mono;
+    font-size: 15px;
+    text-align: left;
+    letter-spacing: -.25px;
+    line-height: 1.5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+}
+
+.source {
+	text-align: right;
+	margin-bottom: 24px;
+}
+
+
+.highlight{
+	background-color: yellow;
+}
+
+#bibliography li{
+	margin-left: -24px;
+	margin-bottom: 12px;
+	padding-left: 0px;
+}
